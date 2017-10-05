@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-n,p,h = 32000,0,0
+n,p,h = 0,0,0
 while True:
     n = n+1
-    print(n)
+    #print(n)
     tri = n*(n+1)/2
     for i in range(n):
         pent = i*((3*i) - 1)/2
@@ -20,6 +20,6 @@ while True:
             break
     if(tri == p == h):
         print("###################################################################")
-        print(n)
+        print(tri)
         print("###################################################################")
         break
