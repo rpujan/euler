@@ -9,3 +9,19 @@ for i in range(1,21):
   print(cal)
   inital = cal
   cal = []
+
+'''
+
+Revised method using permutation/combination
+
+import math
+
+a = math.factorial(40)
+b = math.factorial(20)
+
+# print "factorial of 40 =", a;
+# print "factorial of 20 =", b;
+
+print a / (b * b)
+
+'''
